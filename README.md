@@ -22,7 +22,6 @@ test-quiz
 
 
 
-
 Clone the repository.
 Install dependencies: npm install
 Run the server: npm run dev or npm run local

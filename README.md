@@ -18,7 +18,7 @@ test-quiz
 ├── .gitignore
 ├── README.md
 ├── tsconfig.json
-├── jest.config.js
+├── jest.config.ts
 ├── package.json
 ├── package-lock.json
 ├── dockerfile (optional for containerization)

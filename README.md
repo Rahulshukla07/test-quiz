@@ -1,29 +1,35 @@
+# File structure
 
-# File structure 
 test-quiz
-│
-├── src 
-      ├── controllers/
-      │   ├── quizController.ts
-      │
-      ├── models/
-      │   ├── quizModel.ts
-      │
-      ├── routes/
-      │   ├── quizRoutes.ts
-      │
-      ├── server.ts
-      ├── index.ts
-      ├── package.json
-      └── Dockerfile (optional for containerization)
+├── dist (generated after running the project in production mode)
+├── src
+│ ├── controllers/
+│ │ ├── quizController.ts
+│ │
+│ ├── models/
+│ │ ├── quizModel.ts
+│ │
+│ ├── routes/
+│ │ ├── quizRoutes.ts
+│ │
+│ ├── server.ts
+│ ├── index.ts
+├── node_modules
+├── .gitignore
+├── README.md
+├── tsconfig.json
+├── jest.config.js
+├── package.json
+├── package-lock.json
+├── dockerfile (optional for containerization)
+├── Tests
+│ ├── quiz.jest.ts
 
-├── Test Case
-      ├── quiz.jest.ts
+// Steps to run the project.
 
-
-
-Clone the repository.
-Install dependencies: npm install
-Run the server: npm run dev or npm run local
-Access the API at http://localhost:5000/api/quiz
-
+1. Clone the repository
+2. Install the dependencies: npm install
+3. Make sure you have global typescript installed: if not, install it globally: npm install -g typescript
+4. Run the project: npm run start || npm run dev
+5. Access the project at http://localhost:5000/api/quiz
+6. Run the each test case one by one.

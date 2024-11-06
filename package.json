@@ -4,7 +4,7 @@
   "description": "Test-Quiz-Api",
   "main": "index.js",
   "scripts": {
-    "local": "nodemon --exec ts-node src/index.ts",
+    "start": "nodemon --exec ts-node src/index.ts",
     "dev": "tsc && node dist/index.js",
     "build": "tsc",
     "build:watch": "tsc --watch",
@@ -29,6 +29,8 @@
     "jest": "^29.7.0",
     "nodemon": "^3.1.7",
     "ts-jest": "^29.2.5",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "tsc": "^2.0.4",
+    "typescript": "^5.6.3"
   }
 }
